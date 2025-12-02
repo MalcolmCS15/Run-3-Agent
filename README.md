@@ -37,4 +37,4 @@ then in the page open the run3.ipynb file (this is our notebook)
 
 ## Deactivate Environment
 when ur done or want to get out of the venv run "deactivate" in the terminal
-make sure to git push and all that stuff
+make sure to git push and all that stuff. Make sure to "save" notebook before pushing it
