@@ -1,0 +1,7 @@
+{"time":"2025-12-08T18:17:06.384555-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-08T18:17:06.410889-05:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not start GPU binary: fork/exec /Users/Mac/Desktop/csci1470/final-run3/run3_env/lib/python3.11/site-packages/wandb/bin/gpu_stats: bad CPU type in executable"}
+{"time":"2025-12-08T18:17:06.578713-05:00","level":"INFO","msg":"stream: created new stream","id":"2uyn8wwd"}
+{"time":"2025-12-08T18:17:06.578835-05:00","level":"INFO","msg":"handler: started","stream_id":"2uyn8wwd"}
+{"time":"2025-12-08T18:17:06.580226-05:00","level":"INFO","msg":"stream: started","id":"2uyn8wwd"}
+{"time":"2025-12-08T18:17:06.580259-05:00","level":"INFO","msg":"sender: started","stream_id":"2uyn8wwd"}
+{"time":"2025-12-08T18:17:06.580233-05:00","level":"INFO","msg":"writer: started","stream_id":"2uyn8wwd"}
