@@ -1,0 +1,37 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-12-10T03:22:28.992880Z",
+  "program": "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3.ipynb",
+  "codePath": "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3.ipynb",
+  "codePathLocal": "run3.ipynb",
+  "git": {
+    "remote": "https://github.com/MalcolmCS15/Run-3-Agent.git",
+    "commit": "f5d678fcaf9824ae0e565927fe2ef6f758d7f719"
+  },
+  "email": "ely_brayboy@brown.edu",
+  "root": "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent",
+  "host": "Elys-MacBook-Pro-19765.local",
+  "executable": "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/bin/python",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "436911964160"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M1 Pro",
+    "ecpuCores": 2,
+    "pcpuCores": 8,
+    "gpuCores": 16,
+    "memoryGb": 16,
+    "swapTotalBytes": "8589934592",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "xhkxs0fyc1ory5bsc7clw720acyrhl3v"
+}
