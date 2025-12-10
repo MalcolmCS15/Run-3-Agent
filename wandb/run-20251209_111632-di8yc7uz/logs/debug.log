@@ -1,0 +1,5 @@
+2025-12-09 11:16:32,906 INFO    MainThread:55550 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_111632-di8yc7uz/logs/debug.log
+2025-12-09 11:16:32,906 INFO    MainThread:55550 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_111632-di8yc7uz/logs/debug-internal.log
+2025-12-09 11:16:32,906 INFO    MainThread:55550 [wandb_init.py:init():841] calling init triggers
+2025-12-09 11:16:32,906 INFO    MainThread:55550 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'resolution': 96, 'frame_stack': 4, 'learning_rate': 0.0003, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_ratio': 0.2, 'entropy_coef': 0.025, 'steps_per_epoch': 512, 'train_epochs': 150, '_wandb': {}}

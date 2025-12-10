@@ -1,0 +1,24 @@
+2025-12-09 20:52:45,859 INFO    MainThread:87680 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-09 20:52:45,859 INFO    MainThread:87680 [wandb_setup.py:_flush():80] Configure stats pid to 87680
+2025-12-09 20:52:45,859 INFO    MainThread:87680 [wandb_setup.py:_flush():80] Loading settings from /Users/elybrayboy/.config/wandb/settings
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_setup.py:_flush():80] Loading settings from /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/settings
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_205245-voseffki/logs/debug.log
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_205245-voseffki/logs/debug-internal.log
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x321503e10>
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_init.py:init():841] calling init triggers
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'resolution': 96, 'frame_stack': 4, 'learning_rate': 0.0003, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_ratio': 0.2, 'entropy_coef': 0.03, 'steps_per_epoch': 1024, 'train_epochs': 150, '_wandb': {}}
+2025-12-09 20:52:45,860 INFO    MainThread:87680 [wandb_init.py:init():889] starting backend
+2025-12-09 20:52:46,143 INFO    MainThread:87680 [wandb_init.py:init():892] sending inform_init request
+2025-12-09 20:52:46,163 INFO    MainThread:87680 [wandb_init.py:init():900] backend started and connected
+2025-12-09 20:52:46,189 INFO    MainThread:87680 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-09 20:52:46,191 INFO    MainThread:87680 [wandb_init.py:init():970] updated telemetry
+2025-12-09 20:52:46,302 INFO    MainThread:87680 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-09 20:52:46,620 INFO    MainThread:87680 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-09 20:52:46,752 INFO    MainThread:87680 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-09 20:52:46,752 INFO    MainThread:87680 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-09 20:52:46,752 INFO    MainThread:87680 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-09 20:52:46,752 INFO    MainThread:87680 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-09 20:52:46,755 INFO    MainThread:87680 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-09 20:52:46,760 INFO    MainThread:87680 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend

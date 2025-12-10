@@ -1,0 +1,734 @@
+2025-12-09 10:58:10,024 INFO    MainThread:55550 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_105810-16stkjj4/logs/debug.log
+2025-12-09 10:58:10,024 INFO    MainThread:55550 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_105810-16stkjj4/logs/debug-internal.log
+2025-12-09 10:58:10,024 INFO    MainThread:55550 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x17648b990>
+2025-12-09 10:58:10,025 INFO    MainThread:55550 [wandb_init.py:init():841] calling init triggers
+2025-12-09 10:58:10,025 INFO    MainThread:55550 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'resolution': 96, 'frame_stack': 4, 'learning_rate': 0.0003, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_ratio': 0.2, 'entropy_coef': 0.025, 'steps_per_epoch': 512, 'train_epochs': 150, '_wandb': {}}
+2025-12-09 10:58:10,983 INFO    MainThread:55550 [wandb_init.py:init():889] starting backend
+2025-12-09 10:58:10,983 INFO    MainThread:55550 [wandb_init.py:init():892] sending inform_init request
+2025-12-09 10:58:10,984 INFO    MainThread:55550 [wandb_init.py:init():900] backend started and connected
+2025-12-09 10:58:10,995 INFO    MainThread:55550 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-09 10:58:10,997 INFO    MainThread:55550 [wandb_init.py:init():970] updated telemetry
+2025-12-09 10:58:11,041 INFO    MainThread:55550 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-09 10:58:11,593 INFO    MainThread:55550 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-09 10:58:11,729 INFO    MainThread:55550 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-09 10:58:11,730 INFO    MainThread:55550 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-09 10:58:11,730 INFO    MainThread:55550 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-09 10:58:11,730 INFO    MainThread:55550 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-09 10:58:11,730 INFO    MainThread:55550 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-09 10:58:11,732 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:01:42,606 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:01:42,606 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:01:42,615 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:01:51,353 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:01:51,354 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:01:51,359 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:02:02,521 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:02:02,522 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:02:02,526 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:05:07,845 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:05:07,846 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:10:27,515 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:11:11,302 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:11:11,303 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:11:14,652 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:11:23,924 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:11:23,925 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:11:27,200 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:11:41,696 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:11:41,697 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:11:41,899 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:12:00,617 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:12:00,618 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:12:04,057 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:12:15,045 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:12:15,046 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:12:18,341 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:12:31,784 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:12:31,785 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:12:35,075 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:15:21,538 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:15:21,541 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:15:22,008 INFO    MainThread:55550 [wandb_run.py:_finish():2287] finishing run ely_brayboy-brown-university/run3-ppo/16stkjj4
+2025-12-09 11:15:22,390 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:15:51,978 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:15:51,979 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:15:52,247 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:16:25,898 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:16:25,899 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:16:26,215 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:16:28,352 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:16:28,352 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:16:28,682 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:16:32,220 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:16:32,220 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 11:16:32,907 INFO    MainThread:55550 [wandb_run.py:_finish():2287] finishing run ely_brayboy-brown-university/run3-ppo/16stkjj4
+2025-12-09 11:16:32,908 ERROR   MainThread:55550 [wandb_init.py:init():1592] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1577, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 862, in init
+    self._wl.finish_all_active_runs()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3699, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/var/folders/q_/y2tlnq4d3gl5gqxkc15y__ym0000gn/T/ipykernel_55550/2127913808.py", line 1, in <module>
+    wandb.finish()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 4097, in finish
+    wandb.run.finish(exit_code=exit_code, quiet=quiet)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/IPython/core/events.py", line 82, in trigger
+    func(*args, **kwargs)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/selector_events.py", line 1061, in write
+    n = self._sock.send(data)
+        ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-12-09 11:16:33,812 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend

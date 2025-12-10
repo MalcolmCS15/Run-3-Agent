@@ -1,0 +1,74 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            nwiqbecslhicr2us0v8scetoi2coq97b:
+                apple:
+                    ecpuCores: 2
+                    gpuCores: 16
+                    memoryGb: 16
+                    name: Apple M1 Pro
+                    pcpuCores: 8
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "6442450944"
+                codePath: /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3.ipynb
+                codePathLocal: run3.ipynb
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "428500934656"
+                email: ely_brayboy@brown.edu
+                executable: /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/bin/python
+                git:
+                    commit: 0fb1a60525ae182c749a6ea6943bfadc609e32b2
+                    remote: https://github.com/MalcolmCS15/Run-3-Agent.git
+                host: Elys-MacBook-Pro-19765.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3.ipynb
+                python: CPython 3.11.13
+                root: /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent
+                startedAt: "2025-12-09T16:36:21.647241Z"
+                writerId: nwiqbecslhicr2us0v8scetoi2coq97b
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 2
+                - 3
+            "2":
+                - 2
+                - 3
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.23.1
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.23.1
+            "13": darwin-arm64
+clip_ratio:
+    value: 0.2
+entropy_coef:
+    value: 0.03
+frame_stack:
+    value: 4
+gae_lambda:
+    value: 0.95
+gamma:
+    value: 0.99
+learning_rate:
+    value: 0.0003
+resolution:
+    value: 96
+steps_per_epoch:
+    value: 1024
+train_epochs:
+    value: 150
