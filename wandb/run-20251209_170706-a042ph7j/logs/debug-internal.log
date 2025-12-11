@@ -5,3 +5,24 @@
 {"time":"2025-12-09T17:07:07.065269-05:00","level":"INFO","msg":"stream: started","id":"a042ph7j"}
 {"time":"2025-12-09T17:07:07.065295-05:00","level":"INFO","msg":"writer: started","stream_id":"a042ph7j"}
 {"time":"2025-12-09T17:07:07.065337-05:00","level":"INFO","msg":"sender: started","stream_id":"a042ph7j"}
+{"time":"2025-12-09T17:53:34.166926-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T17:53:36.220737-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T17:53:40.28419-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T17:54:13.10154-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T17:54:15.118101-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T17:59:48.95382-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T17:59:51.342423-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:08:58.516353-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:09:00.917129-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:09:36.667968-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:09:39.13365-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:10:56.332906-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:10:58.380251-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:11:02.392791-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-09T18:16:57.911636-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/a042ph7j/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-12-09T18:20:11.017425-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-09T18:20:11.170061-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-09T18:20:11.191755-05:00","level":"INFO","msg":"stream: closing","id":"a042ph7j"}
+{"time":"2025-12-09T18:20:11.192004-05:00","level":"INFO","msg":"handler: closed","stream_id":"a042ph7j"}
+{"time":"2025-12-09T18:20:11.19488-05:00","level":"INFO","msg":"sender: closed","stream_id":"a042ph7j"}
+{"time":"2025-12-09T18:20:11.195-05:00","level":"INFO","msg":"stream: closed","id":"a042ph7j"}

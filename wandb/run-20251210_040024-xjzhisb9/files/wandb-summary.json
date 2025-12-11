@@ -1,0 +1,1 @@
+{"train/policy_loss":-0.00484203826636076,"_wandb":{"runtime":22479},"train/value_loss":323.87725830078125,"train/epoch_time":220.16612696647644,"_runtime":22479,"train/mean_length":40.96,"train/total_loss":161.92337036132812,"_timestamp":1.765378210171345e+09,"_step":59,"train/entropy":0.5202228426933289,"train/mean_return":91.72746174222222}
