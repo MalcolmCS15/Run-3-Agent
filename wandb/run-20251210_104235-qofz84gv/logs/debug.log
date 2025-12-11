@@ -22,3 +22,12 @@ config: {'resolution': 96, 'frame_stack': 4, 'num_actions': 10, 'num_parameters'
 2025-12-10 10:42:36,828 INFO    MainThread:9976 [wandb_run.py:_redirect():2461] Redirects installed.
 2025-12-10 10:42:36,830 INFO    MainThread:9976 [wandb_init.py:init():1081] run started, returning control to user process
 2025-12-10 10:42:36,831 INFO    MainThread:9976 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-10 10:43:24,842 INFO    MainThread:9976 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3.ipynb
+2025-12-10 10:43:25,690 INFO    MainThread:9976 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-Run-3-_Users_elybrayboy_Desktop_csci1470-course_Run-3-Agent_run3.ipynb'}}
+2025-12-10 10:43:25,690 INFO    MainThread:9976 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-Run-3-_Users_elybrayboy_Desktop_csci1470-course_Run-3-Agent_run3.ipynb>
+2025-12-10 10:43:25,691 INFO    MainThread:9976 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-10 21:24:59,967 INFO    wandb-AsyncioManager-main:9976 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-10 21:24:59,977 INFO    wandb-AsyncioManager-main:9976 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.
+2025-12-10 21:25:00,313 INFO    MainThread:9976 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-10 21:25:26,164 INFO    MainThread:9976 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3.ipynb
+2025-12-10 21:27:28,559 INFO    MainThread:9976 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
