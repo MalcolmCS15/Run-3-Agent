@@ -1,0 +1,16 @@
+{"time":"2025-12-09T15:42:21.50251-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-09T15:42:21.527132-05:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not start GPU binary: fork/exec /Users/Mac/Desktop/csci1470/final-run3/run3_env/lib/python3.11/site-packages/wandb/bin/gpu_stats: bad CPU type in executable"}
+{"time":"2025-12-09T15:42:21.628547-05:00","level":"INFO","msg":"stream: created new stream","id":"z3d8o8n2"}
+{"time":"2025-12-09T15:42:21.628677-05:00","level":"INFO","msg":"handler: started","stream_id":"z3d8o8n2"}
+{"time":"2025-12-09T15:42:21.629078-05:00","level":"INFO","msg":"stream: started","id":"z3d8o8n2"}
+{"time":"2025-12-09T15:42:21.629073-05:00","level":"INFO","msg":"writer: started","stream_id":"z3d8o8n2"}
+{"time":"2025-12-09T15:42:21.629111-05:00","level":"INFO","msg":"sender: started","stream_id":"z3d8o8n2"}
+{"time":"2025-12-09T15:45:52.346684-05:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/Run-3/Run-3/z3d8o8n2/file_stream"}
+{"time":"2025-12-09T15:45:52.347213-05:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/Run-3/Run-3/z3d8o8n2/file_stream: {\"error\":\"run Run-3/z3d8o8n2 not found while streaming file\"}"}
+{"time":"2025-12-09T16:10:31.540111-05:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-12-09T16:10:31.544963-05:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Run-3/z3d8o8n2 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-12-09T16:10:31.564597-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run z3d8o8n2 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-12-09T16:10:33.940012-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run z3d8o8n2 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-12-09T16:10:38.225643-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run z3d8o8n2 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-12-09T16:10:47.950452-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run z3d8o8n2 was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-12-09T16:10:53.781972-05:00","level":"INFO","msg":"stream: closing","id":"z3d8o8n2"}
