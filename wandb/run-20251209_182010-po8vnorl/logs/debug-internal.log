@@ -5,3 +5,10 @@
 {"time":"2025-12-09T18:20:11.346094-05:00","level":"INFO","msg":"stream: started","id":"po8vnorl"}
 {"time":"2025-12-09T18:20:11.346121-05:00","level":"INFO","msg":"sender: started","stream_id":"po8vnorl"}
 {"time":"2025-12-09T18:20:11.346094-05:00","level":"INFO","msg":"writer: started","stream_id":"po8vnorl"}
+{"time":"2025-12-11T11:07:09.242095-05:00","level":"INFO","msg":"stream: closing","id":"po8vnorl"}
+{"time":"2025-12-11T11:07:09.246459-05:00","level":"ERROR","msg":"sender: uploadConfigFile: runupserter: run not yet initialized"}
+{"time":"2025-12-11T11:07:09.29713-05:00","level":"ERROR","msg":"runfiles: runupserter: run not yet initialized"}
+{"time":"2025-12-11T11:07:09.299454-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-11T11:07:09.2996-05:00","level":"INFO","msg":"handler: closed","stream_id":"po8vnorl"}
+{"time":"2025-12-11T11:07:09.300932-05:00","level":"INFO","msg":"sender: closed","stream_id":"po8vnorl"}
+{"time":"2025-12-11T11:07:09.301001-05:00","level":"INFO","msg":"stream: closed","id":"po8vnorl"}
