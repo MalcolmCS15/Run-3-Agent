@@ -1,0 +1,89 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            o4i3pv27ed86onagkmmezvb393aern40:
+                codePath: run3.ipynb
+                codePathLocal: run3.ipynb
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "499963174912"
+                        used: "418984730624"
+                email: malcolm_grant@brown.edu
+                executable: /Users/Mac/Desktop/csci1470/final-run3/run3_env/bin/python
+                git:
+                    commit: 0527be8b2fb8c11a4c94d980fc4de1e843a17f5b
+                    remote: https://github.com/MalcolmCS15/Run-3-Agent.git
+                host: Malcolms-MacBook-Pro-51.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-x86_64-i386-64bit
+                program: run3.ipynb
+                python: CPython 3.11.13
+                root: /Users/Mac/Desktop/csci1470/final-run3
+                startedAt: "2025-12-11T01:24:27.972514Z"
+                writerId: o4i3pv27ed86onagkmmezvb393aern40
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 2
+                - 3
+            "2":
+                - 2
+                - 3
+            "3":
+                - 2
+                - 16
+            "4": 3.11.13
+            "5": 0.23.1
+            "8":
+                - 1
+            "12": 0.23.1
+            "13": darwin-x86_64
+architecture:
+    value: CNN
+clip_ratio:
+    value: 0.15
+entropy_coef:
+    value: 0.02
+eval_episodes:
+    value: 15
+frame_stack:
+    value: 4
+gae_lambda:
+    value: 0.95
+gamma:
+    value: 0.99
+learning_rate:
+    value: 3e-05
+max_grad_norm:
+    value: 0.5
+mini_batch_size:
+    value: 64
+num_actions:
+    value: 11
+num_parameters:
+    value: 4863532
+resolution:
+    value: 128
+runway_h:
+    value: 180
+runway_reward:
+    value: 3
+runway_w:
+    value: 75
+runway_x:
+    value: 600
+runway_y:
+    value: 480
+steps_per_epoch:
+    value: 1024
+train_epochs:
+    value: 500
+update_epochs:
+    value: 5
+value_coef:
+    value: 0.5
