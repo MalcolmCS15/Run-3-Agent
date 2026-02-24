@@ -1,3 +1,8 @@
+Collaborative RL project for Run 3 between Malcolm Grant, Theo Romero, Ely Brayboy, and Kai Burgermeister.
+
+Documentation cut short by an incident at Brown, so ignore below.
+
+
 # Run-3-Agent
 How to start and get ur env up to date/work with the notebook:
 
