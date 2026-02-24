@@ -1,4 +1,4 @@
-Collaborative RL project for Run 3 between Malcolm Grant, Theo Romero, Ely Brayboy, and Kai Burgermeister.
+Collaborative RL project for Run 3 between Malcolm Grant, Kaspar Pitblado, Ely Brayboy, and Kai Burgermeister.
 
 Documentation cut short by an incident at Brown, so ignore below.
 
