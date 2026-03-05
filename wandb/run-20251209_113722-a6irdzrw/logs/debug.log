@@ -1,0 +1,26 @@
+2025-12-09 11:37:22,115 INFO    MainThread:78206 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_113722-a6irdzrw/logs/debug.log
+2025-12-09 11:37:22,115 INFO    MainThread:78206 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_113722-a6irdzrw/logs/debug-internal.log
+2025-12-09 11:37:22,115 INFO    MainThread:78206 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x32c77f0d0>
+2025-12-09 11:37:22,116 INFO    MainThread:78206 [wandb_init.py:init():841] calling init triggers
+2025-12-09 11:37:22,116 INFO    MainThread:78206 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'resolution': 96, 'frame_stack': 4, 'learning_rate': 0.0003, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_ratio': 0.2, 'entropy_coef': 0.03, 'steps_per_epoch': 1024, 'train_epochs': 150, '_wandb': {}}
+2025-12-09 11:37:22,116 INFO    MainThread:78206 [wandb_init.py:init():889] starting backend
+2025-12-09 11:37:22,116 INFO    MainThread:78206 [wandb_init.py:init():892] sending inform_init request
+2025-12-09 11:37:22,120 INFO    MainThread:78206 [wandb_init.py:init():900] backend started and connected
+2025-12-09 11:37:22,128 INFO    MainThread:78206 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-09 11:37:22,129 INFO    MainThread:78206 [wandb_init.py:init():970] updated telemetry
+2025-12-09 11:37:22,158 INFO    MainThread:78206 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-09 11:37:22,682 INFO    MainThread:78206 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-09 11:37:22,882 INFO    MainThread:78206 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-09 11:37:22,882 INFO    MainThread:78206 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-09 11:37:22,882 INFO    MainThread:78206 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-09 11:37:22,882 INFO    MainThread:78206 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-09 11:37:22,883 INFO    MainThread:78206 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-09 11:37:22,885 INFO    MainThread:78206 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 11:37:41,949 INFO    MainThread:78206 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 11:37:41,950 INFO    MainThread:78206 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 20:37:45,823 INFO    MainThread:78206 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 20:37:55,826 INFO    MainThread:78206 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 20:37:55,826 INFO    MainThread:78206 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 20:37:55,899 INFO    MainThread:78206 [wandb_run.py:_finish():2287] finishing run ely_brayboy-brown-university/run3-ppo/a6irdzrw
+2025-12-09 20:37:56,386 INFO    MainThread:78206 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend

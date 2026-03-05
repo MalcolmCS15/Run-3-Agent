@@ -1,0 +1,51 @@
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_setup.py:_flush():80] Configure stats pid to 55550
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_setup.py:_flush():80] Loading settings from /Users/elybrayboy/.config/wandb/settings
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_setup.py:_flush():80] Loading settings from /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/settings
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_105425-62s6csin/logs/debug.log
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/wandb/run-20251209_105425-62s6csin/logs/debug-internal.log
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x31b679110>
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_init.py:init():841] calling init triggers
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'resolution': 96, 'frame_stack': 4, 'learning_rate': 0.0003, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_ratio': 0.2, 'entropy_coef': 0.025, 'steps_per_epoch': 512, 'train_epochs': 150, '_wandb': {}}
+2025-12-09 10:54:25,106 INFO    MainThread:55550 [wandb_init.py:init():889] starting backend
+2025-12-09 10:54:26,006 INFO    MainThread:55550 [wandb_init.py:init():892] sending inform_init request
+2025-12-09 10:54:26,038 INFO    MainThread:55550 [wandb_init.py:init():900] backend started and connected
+2025-12-09 10:54:26,067 INFO    MainThread:55550 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-09 10:54:26,068 INFO    MainThread:55550 [wandb_init.py:init():970] updated telemetry
+2025-12-09 10:54:26,189 INFO    MainThread:55550 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-09 10:54:26,978 INFO    MainThread:55550 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-09 10:54:27,111 INFO    MainThread:55550 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-09 10:54:27,111 INFO    MainThread:55550 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-09 10:54:27,111 INFO    MainThread:55550 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-09 10:54:27,112 INFO    MainThread:55550 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-09 10:54:27,114 INFO    MainThread:55550 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-09 10:54:27,114 INFO    MainThread:55550 [wandb_watch.py:_watch():68] Watching
+2025-12-09 10:54:27,115 ERROR   MainThread:55550 [util.py:get_module():240] Error importing optional module torch
+Traceback (most recent call last):
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/util.py", line 206, in import_module_lazy
+    return sys.modules[name]
+           ~~~~~~~~~~~^^^^^^
+KeyError: 'torch'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/util.py", line 235, in get_module
+    return import_module_lazy(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elybrayboy/Desktop/csci1470-course/Run-3-Agent/run3_env/lib/python3.11/site-packages/wandb/util.py", line 210, in import_module_lazy
+    raise ModuleNotFoundError
+ModuleNotFoundError
+2025-12-09 10:54:27,565 INFO    MainThread:55550 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-09 10:55:22,690 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-12-09 10:55:22,690 INFO    MainThread:55550 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-09 10:55:22,974 INFO    MainThread:55550 [wandb_run.py:_finish():2287] finishing run ely_brayboy-brown-university/run3-ppo/62s6csin
+2025-12-09 10:55:24,147 INFO    MainThread:55550 [jupyter.py:save_history():435] not saving jupyter history
+2025-12-09 10:55:24,147 INFO    MainThread:55550 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2025-12-09 10:55:24,147 INFO    MainThread:55550 [wandb_init.py:_jupyter_teardown():618] cleaning up jupyter logic
+2025-12-09 10:55:24,147 INFO    MainThread:55550 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-09 10:55:24,147 INFO    MainThread:55550 [wandb_run.py:_restore():2468] restore
+2025-12-09 10:55:24,147 INFO    MainThread:55550 [wandb_run.py:_restore():2474] restore done
+2025-12-09 10:55:25,288 INFO    MainThread:55550 [wandb_run.py:_footer_sync_info():3862] logging synced files
