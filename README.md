@@ -19,7 +19,7 @@ The core challenge is learning a visuomotor policy from high-dimensional pixel o
 - **Variable-duration actions** — the action space includes 3 hold durations (50ms, 100ms, 250ms) per direction, enabling fine-grained control
 - **Multi-component reward shaping** — combines platform contact, progress tracking, wall proximity penalties, and survival bonuses
 - **PPO with GAE** — Proximal Policy Optimization with Generalized Advantage Estimation for stable, sample-efficient policy updates
-- **Special Game Tials** — There are many subtly different types of tiles the agent can encounter–boost, falling, ramp. These are very difficult for the model to see and have trastically different effects. Our agent struggled with these.
+- **Special Game Tiles** — There are many subtly different types of tiles the agent can encounter–boost, falling, ramp. These are very difficult for the model to see and have drastically different effects. Our agent struggled with these.
 
 ---
 
