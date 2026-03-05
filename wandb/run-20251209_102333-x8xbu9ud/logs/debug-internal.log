@@ -1,0 +1,13 @@
+{"time":"2025-12-09T10:23:34.540201-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-09T10:23:34.559395-05:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not start GPU binary: fork/exec /Users/Mac/Desktop/csci1470/final-run3/run3_env/lib/python3.11/site-packages/wandb/bin/gpu_stats: bad CPU type in executable"}
+{"time":"2025-12-09T10:23:34.674674-05:00","level":"INFO","msg":"stream: created new stream","id":"x8xbu9ud"}
+{"time":"2025-12-09T10:23:34.674763-05:00","level":"INFO","msg":"handler: started","stream_id":"x8xbu9ud"}
+{"time":"2025-12-09T10:23:34.675149-05:00","level":"INFO","msg":"writer: started","stream_id":"x8xbu9ud"}
+{"time":"2025-12-09T10:23:34.675159-05:00","level":"INFO","msg":"stream: started","id":"x8xbu9ud"}
+{"time":"2025-12-09T10:23:34.675185-05:00","level":"INFO","msg":"sender: started","stream_id":"x8xbu9ud"}
+{"time":"2025-12-09T10:24:18.193834-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-09T10:24:18.351018-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-09T10:24:18.366648-05:00","level":"INFO","msg":"stream: closing","id":"x8xbu9ud"}
+{"time":"2025-12-09T10:24:18.36671-05:00","level":"INFO","msg":"handler: closed","stream_id":"x8xbu9ud"}
+{"time":"2025-12-09T10:24:18.367129-05:00","level":"INFO","msg":"sender: closed","stream_id":"x8xbu9ud"}
+{"time":"2025-12-09T10:24:18.367185-05:00","level":"INFO","msg":"stream: closed","id":"x8xbu9ud"}

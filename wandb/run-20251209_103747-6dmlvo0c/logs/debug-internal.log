@@ -1,0 +1,13 @@
+{"time":"2025-12-09T10:37:48.284222-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-09T10:37:48.359867-05:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not start GPU binary: fork/exec /Users/Mac/Desktop/csci1470/final-run3/run3_env/lib/python3.11/site-packages/wandb/bin/gpu_stats: bad CPU type in executable"}
+{"time":"2025-12-09T10:37:48.460449-05:00","level":"INFO","msg":"stream: created new stream","id":"6dmlvo0c"}
+{"time":"2025-12-09T10:37:48.460569-05:00","level":"INFO","msg":"handler: started","stream_id":"6dmlvo0c"}
+{"time":"2025-12-09T10:37:48.461112-05:00","level":"INFO","msg":"stream: started","id":"6dmlvo0c"}
+{"time":"2025-12-09T10:37:48.46113-05:00","level":"INFO","msg":"sender: started","stream_id":"6dmlvo0c"}
+{"time":"2025-12-09T10:37:48.461114-05:00","level":"INFO","msg":"writer: started","stream_id":"6dmlvo0c"}
+{"time":"2025-12-09T15:41:55.995229-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-09T15:41:56.274789-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-09T15:41:56.29378-05:00","level":"INFO","msg":"stream: closing","id":"6dmlvo0c"}
+{"time":"2025-12-09T15:41:56.293844-05:00","level":"INFO","msg":"handler: closed","stream_id":"6dmlvo0c"}
+{"time":"2025-12-09T15:41:56.294174-05:00","level":"INFO","msg":"sender: closed","stream_id":"6dmlvo0c"}
+{"time":"2025-12-09T15:41:56.294203-05:00","level":"INFO","msg":"stream: closed","id":"6dmlvo0c"}

@@ -1,0 +1,22 @@
+2025-12-09 17:01:47,365 INFO    MainThread:8895 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/Mac/Desktop/csci1470/final-run3/wandb/run-20251209_170147-6majds93/logs/debug.log
+2025-12-09 17:01:47,366 INFO    MainThread:8895 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/Mac/Desktop/csci1470/final-run3/wandb/run-20251209_170147-6majds93/logs/debug-internal.log
+2025-12-09 17:01:47,366 INFO    MainThread:8895 [wandb_init.py:init():841] calling init triggers
+2025-12-09 17:01:47,366 INFO    MainThread:8895 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0003, 'clip_ratio': 0.2, 'value_coef': 0.5, 'entropy_coef': 0.02, 'max_grad_norm': 0.5, 'steps_per_epoch': 1024, 'train_epochs': 150, 'mini_batch_size': 64, 'update_epochs': 4, 'gamma': 0.99, 'gae_lambda': 0.95, 'resolution': 128, 'frame_stack': 4, 'num_actions': 11, 'runway_x': 600, 'runway_y': 480, 'runway_w': 75, 'runway_h': 180, 'runway_reward': 3, 'architecture': 'CNN', 'num_parameters': 4863532, 'eval_episodes': 10, '_wandb': {}}
+2025-12-09 17:01:48,410 INFO    MainThread:8895 [wandb_init.py:init():889] starting backend
+2025-12-09 17:01:48,411 INFO    MainThread:8895 [wandb_init.py:init():892] sending inform_init request
+2025-12-09 17:01:48,414 INFO    MainThread:8895 [wandb_init.py:init():900] backend started and connected
+2025-12-09 17:01:48,441 INFO    MainThread:8895 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-09 17:01:48,444 INFO    MainThread:8895 [wandb_init.py:init():970] updated telemetry
+2025-12-09 17:01:48,499 INFO    MainThread:8895 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-09 17:01:49,582 INFO    MainThread:8895 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-09 17:01:49,946 INFO    MainThread:8895 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-09 17:01:49,953 INFO    MainThread:8895 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-09 17:01:49,957 INFO    MainThread:8895 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-09 17:01:49,958 INFO    MainThread:8895 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-09 17:01:49,959 INFO    MainThread:8895 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-09 17:07:06,121 INFO    MainThread:8895 [wandb_run.py:_finish():2287] finishing run Run-3/Run-3/6majds93
+2025-12-09 17:07:06,123 INFO    MainThread:8895 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-09 17:07:06,123 INFO    MainThread:8895 [wandb_run.py:_restore():2468] restore
+2025-12-09 17:07:06,123 INFO    MainThread:8895 [wandb_run.py:_restore():2474] restore done
+2025-12-09 17:07:06,792 INFO    MainThread:8895 [wandb_run.py:_footer_sync_info():3862] logging synced files
