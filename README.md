@@ -1,8 +1,8 @@
 Collaborative RL project for Run 3 between Malcolm Grant, Kaspar Pitblado, Ely Brayboy, and Kai Burgermeister.
 
-############
+##PLEASE READ
 Unfortunately our Documentation and README changes were cut short by an incident at Brown in 2025, so please ignore below.
-############
+##
 
 # Run-3-Agent
 How to start and get ur env up to date/work with the notebook:
