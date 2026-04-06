@@ -1,0 +1,13 @@
+{"time":"2025-12-10T20:10:28.792003-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-10T20:10:28.823634-05:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not start GPU binary: fork/exec /Users/Mac/Desktop/csci1470/final-run3/run3_env/lib/python3.11/site-packages/wandb/bin/gpu_stats: bad CPU type in executable"}
+{"time":"2025-12-10T20:10:28.983303-05:00","level":"INFO","msg":"stream: created new stream","id":"linikoj3"}
+{"time":"2025-12-10T20:10:28.983439-05:00","level":"INFO","msg":"handler: started","stream_id":"linikoj3"}
+{"time":"2025-12-10T20:10:28.984071-05:00","level":"INFO","msg":"stream: started","id":"linikoj3"}
+{"time":"2025-12-10T20:10:28.984073-05:00","level":"INFO","msg":"writer: started","stream_id":"linikoj3"}
+{"time":"2025-12-10T20:10:28.984133-05:00","level":"INFO","msg":"sender: started","stream_id":"linikoj3"}
+{"time":"2025-12-10T20:22:50.514311-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-10T20:22:50.945235-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-10T20:22:50.960094-05:00","level":"INFO","msg":"stream: closing","id":"linikoj3"}
+{"time":"2025-12-10T20:22:50.96025-05:00","level":"INFO","msg":"handler: closed","stream_id":"linikoj3"}
+{"time":"2025-12-10T20:22:50.960858-05:00","level":"INFO","msg":"sender: closed","stream_id":"linikoj3"}
+{"time":"2025-12-10T20:22:50.960913-05:00","level":"INFO","msg":"stream: closed","id":"linikoj3"}

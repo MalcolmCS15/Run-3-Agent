@@ -1,0 +1,36 @@
+2025-12-11 11:29:51,987 INFO    MainThread:54881 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-11 11:29:51,988 INFO    MainThread:54881 [wandb_setup.py:_flush():80] Configure stats pid to 54881
+2025-12-11 11:29:51,988 INFO    MainThread:54881 [wandb_setup.py:_flush():80] Loading settings from /Users/Mac/.config/wandb/settings
+2025-12-11 11:29:51,990 INFO    MainThread:54881 [wandb_setup.py:_flush():80] Loading settings from /Users/Mac/Desktop/csci1470/final-run3/wandb/settings
+2025-12-11 11:29:51,990 INFO    MainThread:54881 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-11 11:29:51,991 INFO    MainThread:54881 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/Mac/Desktop/csci1470/final-run3/wandb/run-20251211_112951-xllf5mlb/logs/debug.log
+2025-12-11 11:29:51,991 INFO    MainThread:54881 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/Mac/Desktop/csci1470/final-run3/wandb/run-20251211_112951-xllf5mlb/logs/debug-internal.log
+2025-12-11 11:29:51,991 INFO    MainThread:54881 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1413c3210>
+2025-12-11 11:29:51,994 INFO    MainThread:54881 [wandb_init.py:init():841] calling init triggers
+2025-12-11 11:29:51,995 INFO    MainThread:54881 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'resolution': 96, 'frame_stack': 4, 'num_actions': 10, 'num_parameters': 2242027, 'learning_rate': 0.0002, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_ratio': 0.15, 'entropy_coef': 0.02, 'value_coef': 0.5, 'max_grad_norm': 0.5, 'steps_per_epoch': 1024, 'train_epochs': 80, 'mini_batch_size': 64, 'update_epochs': 3, 'eval_episodes': 15, 'top_x': 275, 'top_y': 195, 'width': 725, 'height': 545, 'runway_x': 625, 'runway_y': 450, 'runway_w': 75, 'runway_h': 140, 'mac_laptop': True, 'mac_monitor': False, '_wandb': {'code_path': 'code/run3.ipynb'}}
+2025-12-11 11:29:51,995 INFO    MainThread:54881 [wandb_init.py:init():889] starting backend
+2025-12-11 11:29:53,206 INFO    MainThread:54881 [wandb_init.py:init():892] sending inform_init request
+2025-12-11 11:29:53,249 INFO    MainThread:54881 [wandb_init.py:init():900] backend started and connected
+2025-12-11 11:29:53,262 INFO    MainThread:54881 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-12-11 11:29:53,270 INFO    MainThread:54881 [wandb_init.py:init():970] updated telemetry
+2025-12-11 11:29:53,512 INFO    MainThread:54881 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-11 11:29:53,781 INFO    MainThread:54881 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-11 11:29:56,540 INFO    MainThread:54881 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-11 11:29:56,541 INFO    MainThread:54881 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-11 11:29:56,541 INFO    MainThread:54881 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-11 11:29:56,541 INFO    MainThread:54881 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-11 11:29:56,551 INFO    MainThread:54881 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-11 11:29:56,552 INFO    MainThread:54881 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-11 11:29:56,600 INFO    MainThread:54881 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: run3.ipynb
+2025-12-11 11:29:58,332 INFO    MainThread:54881 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-Run-3-run3.ipynb'}}
+2025-12-11 11:29:58,338 INFO    MainThread:54881 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-Run-3-run3.ipynb>
+2025-12-11 11:29:58,339 INFO    MainThread:54881 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-11 11:30:49,643 INFO    MainThread:54881 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-11 11:30:56,986 INFO    MainThread:54881 [jupyter.py:_save_ipynb():371] [no run ID] looking for notebook: run3.ipynb
+2025-12-11 11:30:57,109 INFO    MainThread:54881 [wandb_run.py:_config_callback():1396] config_cb None None {'_wandb': {'code_path': 'source-Run-3-run3.ipynb'}}
+2025-12-11 11:30:57,110 INFO    MainThread:54881 [wandb_init.py:_pre_run_cell_hook():589] [no run ID] saved code: <Artifact source-Run-3-run3.ipynb>
+2025-12-11 11:30:57,110 INFO    MainThread:54881 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2025-12-11 11:32:03,147 INFO    MainThread:54881 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2025-12-11 11:32:13,991 INFO    wandb-AsyncioManager-main:54881 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-11 11:32:13,992 INFO    wandb-AsyncioManager-main:54881 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

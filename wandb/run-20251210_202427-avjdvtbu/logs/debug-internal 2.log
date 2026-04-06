@@ -1,0 +1,17 @@
+{"time":"2025-12-10T20:24:29.231159-05:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-10T20:24:29.254063-05:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not start GPU binary: fork/exec /Users/Mac/Desktop/csci1470/final-run3/run3_env/lib/python3.11/site-packages/wandb/bin/gpu_stats: bad CPU type in executable"}
+{"time":"2025-12-10T20:24:30.240282-05:00","level":"INFO","msg":"stream: created new stream","id":"avjdvtbu"}
+{"time":"2025-12-10T20:24:30.240681-05:00","level":"INFO","msg":"handler: started","stream_id":"avjdvtbu"}
+{"time":"2025-12-10T20:24:30.241331-05:00","level":"INFO","msg":"stream: started","id":"avjdvtbu"}
+{"time":"2025-12-10T20:24:30.241374-05:00","level":"INFO","msg":"writer: started","stream_id":"avjdvtbu"}
+{"time":"2025-12-10T20:24:30.241412-05:00","level":"INFO","msg":"sender: started","stream_id":"avjdvtbu"}
+{"time":"2025-12-10T21:57:20.347208-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/avjdvtbu/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-10T21:57:22.532389-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/avjdvtbu/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-10T21:57:27.320782-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/avjdvtbu/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-10T22:01:21.972588-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/Run-3/Run-3/avjdvtbu/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-12-10T22:10:36.576652-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-10T22:10:36.721891-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-10T22:10:36.736507-05:00","level":"INFO","msg":"stream: closing","id":"avjdvtbu"}
+{"time":"2025-12-10T22:10:36.736608-05:00","level":"INFO","msg":"handler: closed","stream_id":"avjdvtbu"}
+{"time":"2025-12-10T22:10:36.737816-05:00","level":"INFO","msg":"sender: closed","stream_id":"avjdvtbu"}
+{"time":"2025-12-10T22:10:36.737878-05:00","level":"INFO","msg":"stream: closed","id":"avjdvtbu"}

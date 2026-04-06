@@ -1,0 +1,28 @@
+{
+  "os": "macOS-15.7.4-x86_64-i386-64bit",
+  "python": "CPython 3.11.13",
+  "startedAt": "2026-04-06T19:52:18.190169Z",
+  "program": "run3.ipynb",
+  "codePath": "run3.ipynb",
+  "codePathLocal": "run3.ipynb",
+  "git": {
+    "remote": "https://github.com/MalcolmCS15/Run-3-Agent.git",
+    "commit": "fdf480e44d2ced0e6fc7a63310360d1c1320ddc0"
+  },
+  "email": "malcolm_grant@brown.edu",
+  "root": "/Users/Mac/Desktop/csci1470/final-run3",
+  "host": "Malcolms-MacBook-Pro-51.local",
+  "executable": "/Users/Mac/Desktop/csci1470/final-run3/run3_env/bin/python",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "499963174912",
+      "used": "480982818816"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "x74u5ul9yqwwtjbjj4loymh8kwnh9alh"
+}
