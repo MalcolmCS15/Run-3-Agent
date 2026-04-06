@@ -53,8 +53,9 @@ Input: (96, 96, 4) — 4 stacked grayscale frames, normalized to [0, 1]
 | ------ | ----- | ------------- |
 | 0      | None  | —             |
 | 1–3    | L/R/U | 50ms          |
-| 4–6    | L/R/U | 100ms         |
-| 7–9    | L/R/U | 250ms         |
+| 4–6    | L/R/U | 250ms         |
+| 7–8    | L+U/R+U | 50ms        |
+| 9-10   | L+U/R+U | 250ms       |
 
 **Critic** outputs a single scalar value estimate for the current state.
 
